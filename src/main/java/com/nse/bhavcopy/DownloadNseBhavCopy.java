@@ -45,8 +45,7 @@ public class DownloadNseBhavCopy {
 				strFileNameBuilder.append(dateTime.getYear());
 				strFileNameBuilder.append("bhav.csv.zip");
 
-				String url = "https://www.nseindia.com/content/historical/EQUITIES/" + strFileNameBuilder.toString();
-
+				String url = "https://www1.nseindia.com/content/historical/EQUITIES/" + strFileNameBuilder.toString();
 				log.info("URL {}", url);
 
 				byte[] forObject = restTemplate.getForObject(url, byte[].class);
