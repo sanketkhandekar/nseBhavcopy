@@ -36,7 +36,7 @@ public class DownloadNseBhavCopy {
 
 				StringBuilder strFileNameBuilder = new StringBuilder();
 
-				strFileNdameBuilder.append(dateTime.getYear());
+				strFileNdameBuilders.append(dateTime.getYear());
 				strFileNameBuilder.append("/");
 				strFileNameBuilder.append(monthDisplay);
 				strFileNameBuilder.append("/cm");
